@@ -13,7 +13,6 @@
             cxone('guide', 'init');
             
             </script>
-   
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,21 +22,26 @@
         body {
             background-color: #002e63; /* Dark blue */
             font-family: 'Ink Free', sans-serif; /* Use Ink Free font */
-            color: #ffffff; /* Set text color to white for better visibility */
+            color: #ffffff; /* White text for better visibility */
             text-align: center; /* Center-align all text and content */
             margin: 0;
             padding: 0;
             display: flex;
-            flex-direction: column;
-            justify-content: center; /* Center vertically */
-            align-items: center; /* Center horizontally */
+            flex-direction: column; /* Stack content vertically */
+            justify-content: flex-start; /* Start content at the top */
+            align-items: center; /* Center content horizontally */
             height: 100vh; /* Full viewport height */
         }
 
+        h1, h2 {
+            margin: 10px 0; /* Add spacing around the headings */
+        }
+
         img {
-            margin-top: 20px; /* Add spacing between the text and the image */
-            max-width: 60%; /* Reduce image size to 60% of its original width */
+            margin-top: 20px; /* Add spacing between the headings and image */
+            max-width: 60%; /* Scale the image to 60% of its original width */
             height: auto; /* Maintain aspect ratio */
+            border: 3px solid #ffffff; /* Optional: Add a white border around the image */
         }
     </style>
 </head>
